@@ -1,0 +1,51 @@
+nav {
+    background-color: rgb(72, 51, 51);
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    height: 90.9vh;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+form {
+    padding: 5px;
+}
+
+
+input {
+    margin: 20px 15px;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    color:rgb(99, 94, 94);
+    font-family: sans-serif;
+    text-transform: capitalize;
+    background:rgba(255, 250, 243, 0.796);
+    
+}
+
+input:focus {
+    outline: 0;
+}
+
+fieldset {
+    color:rgb(10, 107, 155);
+    border-color: aqua;
+    border-radius: 8px;
+    background-color:rgba(117, 218, 231, 0.5);
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:rgb(6, 131, 159);
+    border-color: rgb(6, 131, 159);
+    background-color: whitesmoke;
+}

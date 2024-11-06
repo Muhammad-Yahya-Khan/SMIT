@@ -1,0 +1,11 @@
+.main-box {
+    height: 100vh;
+}
+
+
+
+.box {
+    background-color: aqua;
+    border-radius: 20px;
+    height: 400px;
+}

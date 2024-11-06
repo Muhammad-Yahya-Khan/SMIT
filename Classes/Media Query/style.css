@@ -1,0 +1,50 @@
+ body {
+    background-color: blue;
+}
+
+ /* 1400 1200 992 768 576  */
+ /* Order high - low For max */
+ /* Order low - high for min */
+ /* Jb min istemal krta hain to hamesha by default kuch value deni chaiya. jesa body { background-color: black; } */
+
+@media only screen and (max-width: 1400px) {
+    body {
+        background-color: purple;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        background-color: aqua;
+    }
+ }
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: brown;
+    }
+ }
+@media only screen and (max-width: 576px) {
+    body {
+        background-color: orange;
+    }
+ }
+
+
+.main-box {
+    background-color: red;
+    height: 200vh;
+}
+.custom-column {
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* transition: 300ms; */
+}
